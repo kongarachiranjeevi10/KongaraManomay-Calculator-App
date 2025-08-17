@@ -1,0 +1,66 @@
+body{
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 5px;
+   background-clip: ur;
+   background-image:url('spaceman.gif');
+   background-size: cover;
+   background-position: center;
+   height: 100vh;
+}
+
+
+.phone{
+    width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: hsl(240, 43%, 44%);
+    border: 1px solid pink;
+    background: transparent;
+    backdrop-filter: blur(150px);
+
+}
+
+h1{
+     color: rgb(218, 56, 110);
+
+}
+h2{
+    color: rgb(114, 53, 184);
+}
+
+.hulk{
+    display: flex;
+    justify-content: space-around;  
+    margin: 20px;  
+}
+.chess{
+    display: flex;
+    flex-direction: column; 
+    align-content: center;
+    width: 150px; 
+}
+.chess label{
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(235, 13, 168);
+    margin-bottom: 2px;
+}
+.chess input{
+    text-align: center;
+    color: rgb(206, 60, 34);
+    border: 1px solid rgb(194, 5, 5);
+    background-color: rgb(240, 237, 228);
+}
+
+button{
+    font-size: 12px;
+    cursor: pointer;
+    color: rgb(25, 45, 230);
+    font-weight: bold;
+}
+.man{
+    margin-top: 30px;
+    color: rgb(247, 14, 14);
+    font-weight:bold;
+}
